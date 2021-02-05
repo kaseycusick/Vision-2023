@@ -14,7 +14,7 @@ window.customElements.define('utility-links', UtilityLinks);
 class MainNav extends window.HTMLElement {
     connectedCallback() {
         const { classPrefix, classList } = this.dataset;
-        this.innerHTML = `<nav id="navigation" class="main-navigation singlelevel auto-highlight no-icons nav collapse" aria-owns="nav-icon3">
+        this.innerHTML = `<nav id="navigation" class="main-navigation singlelevel auto-highlight no-icons nav" aria-owns="nav-icon3">
       <ul id="nav_list" class="top-level-nav">
         <li class="nav-item">
             <a href="/" class="first-level-link">Home</a>
@@ -110,3 +110,29 @@ class FooterLinks extends window.HTMLElement {
 
 }
 window.customElements.define('footer-links', FooterLinks);
+
+// This is just the arrow icons
+class FooterNav extends window.HTMLElement {
+    connectedCallback() {
+        const { classPrefix, classList } = this.dataset;
+        this.innerHTML = `<ul class="footer-links">
+      <li>
+          <a href="#skip-to-content">Back to Top</a>
+      </li>
+      <li>
+          <a href="/use.html">Conditions of Use</a>
+      </li>
+      <li>
+          <a href="/privacy-policy.html">Privacy Policy</a>
+      </li>
+      <li>
+          <a href="/accessibility.html">Accessibility</a>
+      </li>
+  </ul>`;
+    }
+
+}
+window.customElements.define('footer-nav', FooterNav);
+
+// Get current year
+document.getElementById("year").innerHTML = new Date().getFullYear();
