@@ -41,7 +41,7 @@ Achieving the state’s goal of Broadband For All will require partnerships with
 Why this matters: 
 
 - More diverse government workforces — in terms of sex, race, ethnicity, language, ability, and experience — leads to better policy outcomes for represented communities. Diverse workforces with diverse life experience and perspectives are better able to understand people’s needs.
-- Diverse workplaces known to value inclusion help attract and retain the best talent from a wider pool.   
+- Diverse workplaces are known to value inclusion help attract and retain the best talent from a wider pool.   
 - Our state technology workforce does not yet reflect the state we serve, particularly among women (35 percent of workforce vs. 50 percent of population) and Hispanic or Latino colleagues (12 percent of workforce vs. 39 percent of population).
 
 **Challenge 2.4 How can we create an equitable, inclusive and diverse playing field for technology vendors?**
