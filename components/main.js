@@ -102,6 +102,7 @@ class FooterLinks extends window.HTMLElement {
   </div>
   <div class="col-sm">
       <ul class="list-none">
+        <li class="m-y"><a href="/pdf/Research-Findings-and-Insights.pdf">Research Findings and Insights</a></li>
         <li class="m-y"><a href="/acknowledgements.html">Acknowledgements</a></li>
         <li class="m-y"><a href="/our-thanks.html">Thanks</a></li>
       </ul>
